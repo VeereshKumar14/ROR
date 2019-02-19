@@ -1,0 +1,12 @@
+<li id="mpost-<%= mpost.id %>">
+  <%= link_to gravatar_for(mpost.user, size: 50), mpost.user %>
+  <span class="user"><%= link_to mpost.user.name, mpost.user %></span>
+  <span class="content"><%= mpost.content %></span>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(mpost.created_at) %> ago.
+    <% if current_user?(mpost.user) %>
+          <%= link_to "delete", mpost, method: :delete,
+                                           data: { confirm: "You sure?" } %>
+        <% end %>
+  </span>
+</li>

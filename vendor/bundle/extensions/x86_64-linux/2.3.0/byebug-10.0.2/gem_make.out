@@ -1,0 +1,19 @@
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/usr/bin/ruby2.3 -r ./siteconf20190213-22717-16enz4n.rb extconf.rb
+creating Makefile
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190213-22717-1wiu3wm/byebug

@@ -1,0 +1,13 @@
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/json-2.1.0/ext/json
+/usr/bin/ruby2.3 -r ./siteconf20190219-4633-f832w0.rb extconf.rb
+creating Makefile
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/rently/Project/Ruby_on_Rails/new_app/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR=" install
